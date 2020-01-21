@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.headertext {
+  color: #000000;
+}
+#headerbutton {
+  background-color: #35b729;
+  color: #ffffff;
+  border: "2px solid";
+  border-radius: 18px;
+  opacity: 1;
+  font-weight: bolder;
+}

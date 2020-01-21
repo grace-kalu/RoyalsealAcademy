@@ -1,0 +1,8 @@
+from cs50 import SQL
+
+config = {
+    "db" : SQL("sqlite:///royalseal.db"),
+    "SECRET_KEY": "GRACE",
+    "PASSWORD":"grace#",
+    "EMAIL_SERVER":"meralterson@gmail.com"
+}
