@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/iconified/ms-icon-144x144.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/images/royalseal_YLk_icon.ico" rel="icon">
+    <link href="/static/css/styles.css" rel="stylesheet">
+    <title>Royalseal | {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik" />
+    <style rel="stylesheet" type="text/css">
+        .nav-item a:hover {
+            color:#e28e0e !important
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm ">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="/static/images/Royalsealogo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" style="background-color:#e28e0e ;" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link headertext" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link headertext" href="#">Course</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link headertext" href="#">Author</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link headertext" href="#">Feedback</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <button class="btn" type="submit" id="headerbutton" style="width: 10rem;">Sign Up</button>
+                    </li>
+    
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        {% block main %}{% endblock %}
+    </div>
+
+    
+    <!-- <footer class="navbar-light bg-light border"
+        style="position: absolute; bottom: 0; text-align:center; width: 100%; padding: 15px; color:#0b5710">
+        Copyright &copy; Royalseal, 2019.
+    </footer> -->
+    <section class="container-fluid">
+    <div class="container mt-5 pb-4">
+    
+        <div class="row justify-content-around">
+            <div class="col-sm-2"> <img src="./img/Logo.png" alt="image"></div>
+            <div class="col-sm-2">
+                <h4>Commuinity</h4>
+                <p>Create Account </p>
+                <p>Go to Premium </p>
+                <p>Prefer A Friend </p>
+                <p>Get Coupon Code</p>
+            </div>
+    
+            <div class="col-sm-2">
+                <h4>Support</h4>
+                <p>Terms Condition </p>
+                <p>Privacy & Policy </p>
+                <p>Copyright Issue</p>
+                <p>Get Help</p>
+            </div>
+    
+            <div class="col-sm-2">
+                <h4>Join Us</h4>
+                <p>Become Teacher</p>
+                <p>Become Student</p>
+                <p>Become Both</p>
+                <p>Partnership</p>
+            </div>
+    
+            <div class="col-sm-2">
+                <h5>Download App</h5>
+                <div class="d-flex justify-content-center align-items-center"><img class="im1" src="/static/images/Apple Store.svg"
+                        alt="apple"></div>
+    
+                <div class="d-flex justify-content-center align-items-center" style="margin-top: 0.3rem;"><img class="im1"
+                        src="/static/images/Google Play.png" alt="Google"></div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div class="container">
+        <footer class="row pt-3">
+            <p class="col-sm-11">Copyright © 2019 Royalseal</p>
+        </footer>
+    </div>
+    </section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</html>
